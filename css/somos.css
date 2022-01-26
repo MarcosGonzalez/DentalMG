@@ -1,0 +1,120 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	}
+
+body{
+	padding-top: 50px;
+}
+/* ------------------------------------------------------------------------------------------------- */
+
+											/* HEADER */
+
+/* ------------------------------------------------------------------------------------------------- */
+
+header {
+	position: fixed;
+	background-image: url(../img/nav.jpg);
+	display: block;
+	width: 100%;
+	height: 50px;
+	z-index: 100;
+	margin-top: -50px;
+	opacity: 0.93;
+}
+
+.nav_logo {
+	color: white;
+	position: absolute;
+	left: 10%;
+	bottom: 20%;
+	font-family: 'Comfortaa', cursive;
+	font-size: x-large;
+}
+.nav_logo a{
+
+	text-decoration: none;
+}
+.nav_logo a:link { color: white; }
+.nav_logo a:visited { color: white; }
+.nav_logo a:hover { color: white; font-size: x-large;}
+
+
+#nav_logo_img {
+	bottom: 0;
+	position: relative;
+	margin-bottom: -8px;
+
+}
+
+.nav_menu{
+	position: absolute;
+	right: 20px;
+	bottom: 30%;
+}
+.nav_menu li{
+	display: inline-block;
+	margin-right: 10px;
+}
+li a{
+	text-decoration: none;
+	font-size: small;
+}
+li a:link { color: white; }
+li a:visited { color: white; }
+li a:hover { color: grey; font-size: medium;}
+li a:focus { color: white; }
+li a:active { color: grey; }
+
+/* ------------------------------------------------------------------------------------------------- */
+
+											/* ARTICLE */
+
+/* ------------------------------------------------------------------------------------------------- */
+
+
+
+/* ------------------------------------------------------------------------------------------------- */
+
+											/* ASIDE */
+
+/* ------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------- */
+
+											/* FOOTER */
+
+/* ------------------------------------------------------------------------------------------------- */
+
+.footerbox {
+	font-size: x-small;
+	font-weight: ;
+	height: 100px;
+	width: 95%;
+	background-color: #E3E3E3;
+	text-align: center;
+	padding: 20px;
+
+	border-radius: 10px;
+	margin-top: 50px;
+	margin: 10px;
+}
+
+.footerbox__h4{
+	color: #868686;
+
+}
+
+.footer-a {
+	display: inline-block;
+	margin: 2px;
+}
+
+#footer-a-insta {
+	margin-right: 4px;
+}
