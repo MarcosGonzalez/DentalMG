@@ -264,7 +264,11 @@ body{
 						.article-content-descripciones a:link { color: #404040; }
 						.article-content-descripciones a:visited { color: #404040; }
 						/*.article-content-descripciones a:hover { color: #A5A5A5;}*/
-
+						
+						.button{
+							border: none;
+						}
+							
 						.button::before  {
 							position: absolute;
 							height: 20px;
